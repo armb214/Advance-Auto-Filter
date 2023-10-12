@@ -42,9 +42,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vjbotsaban")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbots')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://armbreker:armbreker@cluster22.rz1rkjl.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster22")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_fiels')
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
